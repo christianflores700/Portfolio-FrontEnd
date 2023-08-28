@@ -1,0 +1,17 @@
+*{
+    background-color: steelblue ;
+    } 
+
+[href]{
+    background-color: yellowgreen;
+}
+
+[href="https://google.com"]{
+    background-color: red;
+}
+
+[href^="modo"]{background-color: gray;}
+
+[href*="google.com"]{background-color: blue;}
+
+[href$="verde"]{color: green;}
